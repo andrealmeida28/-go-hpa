@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: biliano/go-hpa:latest
+        image: img-app-deployment
         ports:
         - containerPort: 80
         resources:
