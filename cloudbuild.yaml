@@ -3,7 +3,7 @@ steps:
 -   id: "Rodando o teste unit greeting_test.go"
     name: 'gcr.io/cloud-builders/go'
     env: ['GOPATH=src/']
-    args: ['test','greeting_test.go']
+    args: ['test','src/greeting_test.go']
 
 
 
