@@ -18,7 +18,7 @@ spec:
       - name: nginx
         image: biliano/go-hpa:latest
         ports:
-        - containerPort: 9000
+        - containerPort: 80
         resources:
           requests:
             #memory: "100Mi"

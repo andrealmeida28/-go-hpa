@@ -21,5 +21,5 @@ func greeting(str string) string {
 
 func main() {
 	http.HandleFunc("/", handler)
-	log.Fatal(http.ListenAndServe(":9000", nil))
+	log.Fatal(http.ListenAndServe(":80", nil))
 }
